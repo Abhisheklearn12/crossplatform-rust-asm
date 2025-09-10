@@ -52,5 +52,13 @@ kvstore/
 
 ---
 Fully compatible with **x86 (32/64-bit)**, **Unix + Windows (GNU)**, **GCC & Clang**.
+---
 
+## Important commands to check:
+```
+> for binary:
+cargo run --bin asm-rust-bin
 
+> for library:
+cargo test
+```

@@ -8,6 +8,12 @@ edition = "2024"
 [build-dependencies]
 cc = "1.2.36"  # cc crate for invoking assembly stuff.
 
+# Library target
 [lib]
 name = "kvstore"
 crate-type = ["rlib"]
+
+# Binary target
+[[bin]]
+name = "asm-rust-bin"       # The name of the executable
+path = "src/main.rs"        # Path to your main.rs file
