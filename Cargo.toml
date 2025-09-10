@@ -1,0 +1,13 @@
+[package]
+name = "asm-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.2.36"  # cc crate for invoking assembly stuff.
+
+[lib]
+name = "kvstore"
+crate-type = ["rlib"]
