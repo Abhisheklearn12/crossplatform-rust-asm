@@ -9,7 +9,7 @@ Handwritten **x86 assembly (`.S`)** library for Rust (32-bit & 64-bit) supportin
 * **Linux/macOS (Unix, ELF/Mach-O, GCC/Clang)**
 * **Windows + GNU (MinGW, GCC/Clang)**
 
-> ⚠️ This project uses `.S` files (AT\&T syntax by default). Not for `.asm` (MASM/MSVC).
+> This project uses `.S` files (AT\&T syntax by default). Not for `.asm` (MASM/MSVC).
 
 ---
 
