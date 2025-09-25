@@ -1,6 +1,3 @@
-Here’s a **100% technically correct, concise README** for your Rust + `.S` project setup:
-
----
 
 # kvstore-simd
 
